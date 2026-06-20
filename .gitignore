@@ -1,0 +1,6 @@
+.idea
+**/target
+**/.agents
+**/node_modules/
+**/dist/
+**/.aspire/

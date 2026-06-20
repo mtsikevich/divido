@@ -1,0 +1,22 @@
+{
+  "appHost": {
+    "path": "apphost.mts",
+    "language": "typescript/nodejs"
+  },
+  "sdk": {
+    "version": "13.4.6"
+  },
+  "profiles": {
+    "https": {
+      "applicationUrl": "https://localhost:17067;http://localhost:15053",
+      "environmentVariables": {
+        "ASPIRE_DASHBOARD_OTLP_ENDPOINT_URL": "https://localhost:21130",
+        "ASPIRE_RESOURCE_SERVICE_ENDPOINT_URL": "https://localhost:22035"
+      }
+    }
+  },
+  "packages": {
+    "CommunityToolkit.Aspire.Hosting.LavinMQ": "13.4.0",
+    "CommunityToolkit.Aspire.Hosting.Rust": "13.4.0"
+  }
+}
